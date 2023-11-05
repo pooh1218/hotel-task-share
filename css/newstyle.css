@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+.sty_1 {
+    width: 100%;
+    border: 1px solid lightgray;
+    height: 60px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+.sty_2 {
+    width: 25%;
+    height: 60px;
+    border-right: 1px solid lightgray;
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+.sty_p {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.sty_img {
+    height: 80px;
+    width: 100%
+}
+
+.img_pad {
+    padding-left: 30%;
+    padding-top: 25px;
+}
+
+.sty_ul {
+    float: right;
+    padding-right: 25%;
+    padding-top: 15px;
+}
+
+.sty_3 {
+    width: 25%;
+    height: 60px;
+    padding: 0px 25px;
+    display: inline-block;
+}
+
+strong {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a.on:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid grey;
+}
+
+.letter {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 80px;
+    font-family: serif;
+    text-align: left;
+    line-height: 120px;
+    width: 40%;
+
+}
+
+.let_sub {
+    font-size: 22px;
+    font-family: serif;
+    line-height: 30px;
+
+}
+
+.book {
+    float: right;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    width: 15%;
+    height: 80%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#book {
+    font-size: 30px;
+    font-family: serif;
+
+}
+
+#ch {
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+}
+
+input,select {
+    width: 80%;
+    height: 40px;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    border-color: tomato;
+    color: tomato;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sty_1 {
+        display: none;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .sty_ul {
+            display: none;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .carousel {
+                width: 100%;
+                height: 500px;
+            }
+        }
